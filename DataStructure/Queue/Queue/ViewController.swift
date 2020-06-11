@@ -1,17 +1,18 @@
 //
 //  ViewController.swift
-//  Stack
+//  Queue
 //
-//  Created by ChanWook Park on 08/06/2020.
+//  Created by ChanWook Park on 11/06/2020.
 //  Copyright © 2020 ChanWookPark. All rights reserved.
 //
 
 import UIKit
 
 class ViewController: UIViewController {
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         let rainbow = ["Red",
                        "Orange",
                        "Yellow",
@@ -20,13 +21,16 @@ class ViewController: UIViewController {
                        "DeepBlue",
                        "Purple"]
         
-        var stack = Stack(rainbow)
+        var queue = Queue([])
         
-        stack.pop()
-        stack.push("Purple")
+        for color in rainbow {
+            queue.enqueue(color)
+        }
         
-    
-        print(stack)
+        let firstColor = queue.dequeue() as! String
+        queue.enqueue(firstColor)
+        
+        print(queue)
     }
 }
 
