@@ -17,6 +17,8 @@
 		E232E8DB2985656300D38B1B /* QueueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E232E8DA2985656300D38B1B /* QueueTests.swift */; };
 		E232E8DD29856A9500D38B1B /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = E232E8DC29856A9500D38B1B /* Stack.swift */; };
 		E232E8E129856AE000D38B1B /* StackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E232E8E029856AE000D38B1B /* StackTests.swift */; };
+		E232E8E52986A59B00D38B1B /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E232E8E42986A59B00D38B1B /* LinkedList.swift */; };
+		E232E8E92986C03C00D38B1B /* LinkedListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E232E8E82986C03C00D38B1B /* LinkedListTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +45,8 @@
 		E232E8DA2985656300D38B1B /* QueueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueTests.swift; sourceTree = "<group>"; };
 		E232E8DC29856A9500D38B1B /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		E232E8E029856AE000D38B1B /* StackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackTests.swift; sourceTree = "<group>"; };
+		E232E8E42986A59B00D38B1B /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
+		E232E8E82986C03C00D38B1B /* LinkedListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,7 @@
 			children = (
 				E232E8E029856AE000D38B1B /* StackTests.swift */,
 				E232E8DA2985656300D38B1B /* QueueTests.swift */,
+				E232E8E82986C03C00D38B1B /* LinkedListTests.swift */,
 			);
 			path = DataStructureTests;
 			sourceTree = "<group>";
@@ -110,6 +115,7 @@
 			children = (
 				E232E8DC29856A9500D38B1B /* Stack.swift */,
 				E232E8D82985653E00D38B1B /* Queue.swift */,
+				E232E8E42986A59B00D38B1B /* LinkedList.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -215,6 +221,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E232E8E52986A59B00D38B1B /* LinkedList.swift in Sources */,
 				E232E8AC2985651F00D38B1B /* ViewController.swift in Sources */,
 				E232E8DD29856A9500D38B1B /* Stack.swift in Sources */,
 				E232E8A82985651F00D38B1B /* AppDelegate.swift in Sources */,
@@ -228,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E232E8E129856AE000D38B1B /* StackTests.swift in Sources */,
+				E232E8E92986C03C00D38B1B /* LinkedListTests.swift in Sources */,
 				E232E8DB2985656300D38B1B /* QueueTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
